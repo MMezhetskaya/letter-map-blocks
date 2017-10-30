@@ -1,0 +1,42 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Position absolute and relative</title>
+    <meta name="author" content="Marya Mezhetskaya">
+    <style>
+
+        .one {
+
+            width: 800px;
+            height: 400px;
+            position: relative;
+            background-color: blue;
+        }
+
+      .two {
+        background-color: red;
+        height: 200px;
+        width: 400px;
+        bottom: 100px; /* Положение от нижнего края */
+        right: 0px; /* Положение от правого края */
+        position: absolute;
+      }
+    .three {
+        background-color: green;
+        height: 100px;
+        width: 200px;
+        bottom: 50px; /* Положение от нижнего края */
+        left: 0px; /* Положение от левого края */
+        position: absolute;
+    </style>
+</head>
+
+<body>
+    <div class="one">
+        <div class="two">
+            <div class="three">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
